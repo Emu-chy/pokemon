@@ -8,7 +8,7 @@ const Pokemon = ({ pokemon }) => {
 
     console.log("singly data", pokemon);
     return (
-        <div className="text-center">
+        <>
             <div className="container ">
                 <div className="text-center mt-5 mb-5 ">
                     <img src="../images/logo.png" />
@@ -101,11 +101,11 @@ const Pokemon = ({ pokemon }) => {
                 </div>
             </div>
             <Link href="/">
-            <button className="h-25 bg-warning text-white border border-4 border-primary" type="button">
+            <button style={{marginLeft:"606px"}} className="h-25 bg-warning text-white border border-4 border-primary" type="button">
                 Back to Home page
             </button>
             </Link>
-        </div>
+        </>
     );
 };
 
